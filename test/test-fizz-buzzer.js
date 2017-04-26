@@ -29,7 +29,7 @@ describe('fizzBuzzer', function () {
 			fizzBuzzer(input).should.equal(input);
 		})
 	})
-	it('should throw error if not a nuber', function() {
+	it('should throw error if not a number', function() {
 		const testers = ['foo', true, 'bang', '2'];
 		testers.forEach(function(input) {
 			(function() {
